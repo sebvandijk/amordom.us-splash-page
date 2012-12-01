@@ -1,0 +1,103 @@
+body {
+	background: #ebebeb;
+}
+
+h1, h2, h3, .subtitle {
+	 font-family: 'Signika', serif;
+}
+
+.red {
+	color: #d12e2e;
+}
+.blue {
+	color: #6cabc4;
+}
+
+.subtitle {
+	position: relative;
+	font-size: 22px; font-weight: bold;
+	margin: 0 0 30px 0;
+}
+
+	.subtitle.large {
+		position: relative;
+		margin: 50px 0 0 0;
+		font-size: 40px; font-weight: normal;
+		text-align: center;	
+	}
+	
+.container-narrow {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#header {
+	position: relative;
+	height: 150px;
+}
+
+#logo {
+	position: relative;
+}
+	#logo a {
+		position: absolute; top: 0; left: 50%;
+		background: url('images/amordomus-logo.png') no-repeat;
+		width: 350px;
+		height: 100px;
+		margin-left: -175px;
+		display: block;
+	}
+
+#intro {
+	background:#fff;
+	border: 1px solid #ccc;
+	padding: 15px;
+	text-align: center; font-weight: normal;
+}
+	#intro h2 {
+		font-size: 20px; font-weight: normal;
+	}
+
+#content {
+	position: relative;
+	margin: 20px 0 0 0;	
+}
+
+#sellers {
+	position: relative;
+}
+#buyers {
+	position: relative;
+	border-right: 1px solid #ccc;
+}
+
+#form-wrapper {
+	position: relative;
+	margin: 50px 0 0 0;
+}
+
+ul.check li {
+	background: url('images/check.png') no-repeat left;
+	padding: 0 0 0 30px;
+	margin: 0 0 5px 0;
+}
+
+.form-arrow {
+	position: absolute; top: 32px; left: 50%; z-index: 999;
+	margin-left: -19px;
+	width: 38px;
+	height: 19px;
+	display: block;
+	background: url('images/form-arrow.png') no-repeat;	
+}
+
+#form {
+	position: relative;
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #d3d3d3;
+}
